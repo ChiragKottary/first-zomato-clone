@@ -70,7 +70,7 @@ class Header extends React.Component {
             address:address,
         };
            axios({
-            url:'https://gentle-lake-83992.herokuapp.com/usersignup',
+            url:'https://peaceful-falls-09725.herokuapp.com/usersignup',
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
@@ -135,7 +135,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'https://gentle-lake-83992.herokuapp.com//login',
+            url: 'https://peaceful-falls-09725.herokuapp.com/login',
             headers: { 'Content-Type': 'application/json' },
             data: loginObj
         })

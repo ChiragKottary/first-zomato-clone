@@ -57,7 +57,7 @@ class details extends React.Component {
         const { restaurant } = qs;
 
         axios({
-            url: `https://gentle-lake-83992.herokuapp.com/getResById/${restaurant}`,
+            url: `https://peaceful-falls-09725.herokuapp.com/getResById/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -70,7 +70,7 @@ class details extends React.Component {
     handleOrder = () => {
         const { resId } = this.state;
         axios({
-            url: `https://gentle-lake-83992.herokuapp.com/menuitems/${resId}`,
+            url: `https://peaceful-falls-09725.herokuapp.com/menuitems/${resId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -146,7 +146,7 @@ class details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`https://gentle-lake-83992.herokuapp.com/payment`, {
+        return fetch(`https://peaceful-falls-09725.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
