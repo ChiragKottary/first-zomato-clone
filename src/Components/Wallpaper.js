@@ -64,7 +64,7 @@ class Wallpaper extends React.Component{
             <div>
                <div className="home-wallpaper">
             <div>
-                <img src="./assets/homepage.png" width="100%" height="600px"/></div>
+                <img src="./Assets/homepage.png" width="100%" height="600px"/></div>
                 {/*
                 <div style={ {float: "right"}}>
                 <div className="home-visible">
