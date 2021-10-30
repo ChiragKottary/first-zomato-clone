@@ -57,7 +57,7 @@ class details extends React.Component {
         const { restaurant } = qs;
 
         axios({
-            url: `https://git.heroku.com/gentle-lake-83992.git/getResById/${restaurant}`,
+            url: `http://localhost:2121/getResById/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -70,7 +70,7 @@ class details extends React.Component {
     handleOrder = () => {
         const { resId } = this.state;
         axios({
-            url: `https://git.heroku.com/gentle-lake-83992.git/menuitems/${resId}`,
+            url: `https://gentle-lake-83992.herokuapp.com/menuitems/${resId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -146,7 +146,7 @@ class details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`https://git.heroku.com/gentle-lake-83992.git/payment`, {
+        return fetch(`https://gentle-lake-83992.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
