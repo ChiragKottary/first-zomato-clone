@@ -70,7 +70,7 @@ class Header extends React.Component {
             address:address,
         };
            axios({
-            url:'https://git.heroku.com/gentle-lake-83992.git/usersignup',
+            url:'https://gentle-lake-83992.herokuapp.com/usersignup',
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
