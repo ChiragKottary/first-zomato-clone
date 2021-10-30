@@ -1,0 +1,385 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+.filter-box{
+    display: none;
+}
+.filter-mob{
+    display: none;
+}
+.filter-arrow{
+    display: none;
+}
+
+
+.filter-header{
+    height: 80px;
+    background-color:  #ce0505;
+}
+.filter-login{
+    display: inline;
+}
+.filter-account{
+    display: inline;
+    margin-left: 20px;
+}
+.filter-logo{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #ce0505;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 0px 0px 100px;
+    padding-top: 5px;
+}
+.filter-mobile-login{
+    display: none;
+}
+.filter-pc-login{
+    margin: 20px 50px 0px 0px;
+}
+.filter-heading{
+    font-size: 35px;
+    color: #192f60;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.filter-pc{
+    width: 320px;
+    height: 680px;
+    box-shadow: 0px 4px 5px 2px gray;
+
+    
+}
+
+.filter-con-breakfast{
+    margin: 15px 0px 0px 20px;
+
+}
+.filter-dish-1{
+    
+    box-shadow: 0px 4px 5px 2px gray;
+    width: 850px;
+    height: 291px;
+    
+}
+
+.filter-dish-2{
+    
+    box-shadow: 0px 4px 5px 2px gray;
+    width: 850px;
+    height: 291px;
+    margin-top: 30px;
+}
+.filter-Food-Img{
+    display: inline-block;
+    width: 20%;
+    height: 120px;
+    border-radius: 30%;
+    margin: 20px 0px 0px 30px;
+}
+.filter-Breakfast-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin:20px 0px 0px 50px;
+}
+.filter-Shop-name{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.filter-Place{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.filter-address{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.filter-Bottom-part-1{
+    display: inline-block;
+}
+.filter-CUISINES-COST-FOR-TWO{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    margin: 25px;
+}
+.filter-Bottom-part-2{
+    display: inline-block;
+    vertical-align: top;
+}
+.filter-Bakery-Price{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 25px; 
+}
+.filter-Filter {
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .filter-Select-Location {
+    width: 106px;
+    height: 20px;
+    margin: 10px 102px 11px 1px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  #city{
+      width: 208px;
+      height: 35px;
+      margin: 0px 0 2px 1px;
+      padding: 8px 16.7px 7px 15px;
+      border-radius: 3px;
+      border: solid 1px #8c96ab;
+ }
+.filter-Cuisine{
+  margin: 22px 157px 15px 1px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.filter-Cuisine-Price-Sort{
+  margin: 5px 94px 12px 11px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+.filter-Cost-For-Two{
+  margin: 15px 119px 15px 1px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.filter-Sort {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+
+#Radio{
+  border-radius: 9px;
+  border: solid 1.5px #3a5075;
+
+}
+.pagination {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: -3px;
+    margin-top: 10px;
+}
+.page-num {
+    border: solid 1px black;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: lightgray;
+}
+.no-records {
+    color: red;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginFont{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.cross{
+    position: absolute;
+    top: 6%;
+    left: 88%;
+    font-size: 25px;
+}
+.googleLogin{
+    position: absolute;
+    top: 22%;
+    left: 17%;
+    width: 250px;
+    box-shadow: 0px 4px 5px 2px gray;
+}
+.facebookLogin{
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    font-size: 16px;
+    
+    box-shadow: 0px 4px 5px 2px gray;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px){
+    .filter-pc-login{
+        display: none;
+    }
+    .filter-mobile-login{
+        display: initial;
+
+    }
+    .filter-new-login{
+        font-size: 35px;
+        margin: 25px 50px 0px 0px;
+        position: absolute;
+        right: -25px;
+        top: 0px;
+    }
+    .filter-newsign{
+        width: 990px;
+        height: 25px;
+        background-color: #fbfbfb;
+        border-radius: 4px;
+        
+    }
+    .filter-mob-ver-login{
+        width: 100%;
+        padding-left: 900px;
+        
+    }
+    .filter-mob-ver-create{
+        width: 100%;
+        padding-left: 800px;
+        margin-top: 12px;     
+    }
+    .filter-dish-1{
+        width: 500px;
+        height: 224px;
+    }
+    .filter-dish-2{
+        width: 500px;
+        height: 224px;
+    }
+    .filter-Shop-name{
+        font-size: 20px;
+    }
+    .filter-Food-Img{
+        width: 15%;
+        height: 70px;
+        margin: 15px 0px 0px 22px;
+    }
+    .filter-Place{
+        font-size: 13px;
+    }
+    .filter-address{
+        font-size: 12px;
+    }
+    .filter-Breakfast-info{
+        width: 70%;
+        margin-left: 5px ;
+    }
+    .filter-box{
+        display: initial;
+        width: 320px;
+        height: 30px;
+        box-shadow: 2px 1px 3px 1px #8c96ab;
+        margin-left: 100px;
+    }
+    .filter-arrow{
+        display: initial;
+        float: right;
+        margin-top: 5px;
+        
+    }
+    .filter-mob{
+        display: initial;
+        width: 320px;
+        height: 680px;
+        box-shadow: 0px 4px 5px 2px gray;
+        margin-left: 100px;
+    
+        
+    }
+    .filter-pc{
+        display: none;
+    }
+
+}
