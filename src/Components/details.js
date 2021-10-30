@@ -57,7 +57,7 @@ class details extends React.Component {
         const { restaurant } = qs;
 
         axios({
-            url: `http://localhost:2121/getResById/${restaurant}`,
+            url: `https://gentle-lake-83992.herokuapp.com/getResById/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
