@@ -31,7 +31,7 @@ class filter extends React.Component {
         };
         console.log("hi",filterObj);
         axios({
-            url: 'http://localhost:2121/filter',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -47,7 +47,7 @@ class filter extends React.Component {
             .catch( err => console.log(err))
             
         axios({
-            url: 'http://localhost:2121/locations',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/locations',
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -74,7 +74,7 @@ class filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:2121/filter',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -105,7 +105,7 @@ class filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:2121/filter',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -137,7 +137,7 @@ class filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:2121/filter',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj
@@ -168,7 +168,7 @@ class filter extends React.Component {
         };
 
         axios({
-            url:'http://localhost:2121/filter',
+            url:'https://git.heroku.com/gentle-lake-83992.git/filter',
             method:'POST',
             headers:{'Content-Type' : 'application/json'},
             data:filterObj
@@ -201,7 +201,7 @@ class filter extends React.Component {
         };
 
         axios({
-            url: 'http://localhost:2121/filter',
+            url: 'https://git.heroku.com/gentle-lake-83992.git/filter',
             headers: { 'Content-Type': 'application/json' },
             method: 'POST',
             data: filterObj

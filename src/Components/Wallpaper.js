@@ -17,7 +17,7 @@ class Wallpaper extends React.Component{
         const locationId = event.target.value;
         sessionStorage.setItem('locationId',locationId);
         axios({
-            url:`http://localhost:2121/restaurant/${locationId}`,
+            url:`https://git.heroku.com/gentle-lake-83992.git/restaurant/${locationId}`,
             method: 'GET',
             headers: {'Content-Type': 'application/json'}
         })
