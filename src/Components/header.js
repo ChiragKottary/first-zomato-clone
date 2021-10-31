@@ -28,6 +28,7 @@ class Header extends React.Component {
             loginModalIsOpen: false,
             isLoggedIn: false,
             loggedInUser: '',
+            googleloggedInUser:'',
             AccModalIsOpen: false,
             ANOTHERModalIsOpen: false,
             email:'',
@@ -99,11 +100,8 @@ class Header extends React.Component {
 
     }
     responseGoogle = (response) => {
-
-        this.setState({ isLoggedIn: true, loggedInUser: response.profileObj.name,firstname: response.profileObj.givenName, email: response.profileObj.email, profileObj:response.profileObj, loginModalIsOpen: false })
-
         console.log(response)
-
+        this.setState({ isLoggedIn: true, googleloggedInUser: response.profileObj.name, loginModalIsOpen: false })
     }
 
     responseFacebook=(response)=> {
@@ -167,7 +165,7 @@ class Header extends React.Component {
 
 
     render() {
-        const { loginModalIsOpen,isLoggedIn, loggedInUser, AccModalIsOpen,ANOTHERModalIsOpen,user,email } = this.state;
+        const { loginModalIsOpen,isLoggedIn, loggedInUser, AccModalIsOpen,ANOTHERModalIsOpen,user,googleloggedInUser } = this.state;
         return (
             <div className="filter-header">
             
@@ -178,7 +176,7 @@ class Header extends React.Component {
 
                          <div className="user-head">
 
-                         <div className="user-signup" ><button type="button" className="btn btn-outline-dark" >{loggedInUser}</button></div>
+                         <div className="user-signup" ><button type="button" className="btn btn-outline-dark" >{loggedInUser}{googleloggedInUser}</button></div>
 
                             <div className="user-login " onClick={this.userLogout}><button type="button" className="btn btn-outline-dark">Logout</button></div>
                             <button></button>
@@ -209,7 +207,7 @@ class Header extends React.Component {
                        <br/>
                         <div style={{ textAlign:'center',padding:' 5px 29px 5px 2px', color:'white'}}>
                         <GoogleLogin
-                            clientId="622176405680-ofdkls4mid035ig7onpnvu7bonjompgb.apps.googleusercontent.com"
+                            clientId="622176405680-tib5fm5gcjl02rb6mfbdj2b2qvhn2hv2.apps.googleusercontent.com"
                             buttonText="Continue with Google"
                             onSuccess={this.responseGoogle}
                             onFailure={this.responseGoogle}
