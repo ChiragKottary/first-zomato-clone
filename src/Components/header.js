@@ -176,9 +176,9 @@ class Header extends React.Component {
 
                          <div className="user-head">
 
-                         <div className="user-signup" ><button type="button" className="btn btn-outline-dark" >{loggedInUser}{googleloggedInUser}</button></div>
+                         <div  ><button type="button" className="btn btn-outline-dark" className="user-signup">{loggedInUser}{googleloggedInUser}</button></div>
 
-                            <div className="user-login " onClick={this.userLogout}><button type="button" className="btn btn-outline-dark">Logout</button></div>
+                            <div  onClick={this.userLogout}><button type="button" className="user-login "className="btn btn-outline-dark">Logout</button></div>
                             <button></button>
 
                         </div>

@@ -132,12 +132,12 @@
         display: inline-block;
         position: absolute;
         z-index: 0;
-        width: 43px;
-        height: 23px;
-        margin-left: 61%;
+        width: 20px;
+        height: 15px;
+        margin-left: -100px;
         margin-top: 23px;
-        font-size: 14px;
-        font-weight: 500;
+        font-size: 12px;
+        font-weight: bold;
         line-height: 1.56;
         letter-spacing: normal;
         text-decoration: none;
@@ -147,16 +147,15 @@
         display: inline-block;
         position: absolute;
         left: 324px;
-        top: 10px;
-        font-size: x-small;
+        top: -18px;
+        font-size: 8px;
         z-index: 0;
-        border: 1px solid white;
-        width: 137px;
-        margin-left: 10px;
-        height: 38px;
+        width: 50px;
+        height: 10px;
+        margin-left: 30px;
         padding: 10px 0px 0px 9px;
         border-radius: 3px;
-        text-decoration: none;
-        color: white;
+        
     }
+    
 }

@@ -212,7 +212,7 @@ ul {
         width: 100px;
         height: 100px;    
         font-size: 75px;        
-        margin:0px 0px 10px 200px;
+        margin:0px 0px 10px 150px;
     } 
     .home-center-content{
         left: 10%;
@@ -223,13 +223,13 @@ ul {
         text-align: center;
     }
     .home-rest-location{
-        width: 350px;
+        width: 270px;
         height: 60px;
         margin: 5px 0px 5px 10px;
         
     }
     .home-search-rest{
-        width: 350px;
+        width: 300px;
         height: 60px; 
         margin: 5px 0px 5px 1px; 
     }
